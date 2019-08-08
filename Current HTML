@@ -37,8 +37,26 @@
     </div>    
         
     <div class="Inputs">
-        <input id="age" type="text" name="age" placeholder="Age" required>
-    <div>
+        <input id="age" type="number" name="age" placeholder="Age" min="0" max="120" required>
+    </div>
+</div>
+
+<div class="Row">
+    <div class="Labels">
+        <label for="dropdown">* Which part of the hierarchy do you identify with? </label>
+    </div>    
+       
+    <select id="dropdown" name="DominancePosition">
+        <option value="Cain-Lobster">Cain-Lobster</option>
+        <option value="Gaythiest-Lobster">Gaythiest-Lobster</option>
+        <option value="Defeated-Lobster">Defeated-Lobster</option>
+        <option value="Room-Cleaning-Lobster">Room-Cleaning-Lobster</option>
+        <option value="Logos-Lobster">Logos-Lobster</option>
+    </select>
+</div>
+
+
+
 </div>
 
 
