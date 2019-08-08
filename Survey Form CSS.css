@@ -1,0 +1,62 @@
+
+html {
+    font-size: 12px;
+}
+
+
+body {
+    background-color: white;
+    
+
+}
+
+header {
+    text-align: center;
+    color: black;
+   
+
+}
+
+form {
+    margin: 0 auto;
+    background-color: aqua;
+    height: 70rem;
+    width: 70rem;
+
+}
+
+
+
+.Row {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+
+}
+.Labels {
+    padding-left: 10em;
+
+}
+
+.Inputs {
+    padding-right: 5em;
+    
+
+}
+
+#name {
+    font-size: 1em;
+
+}
+
+#email {
+    font-size: 1em;
+
+}
+
+#age {
+    font-size: 1em;
+    width: 12.15em;
+
+}
